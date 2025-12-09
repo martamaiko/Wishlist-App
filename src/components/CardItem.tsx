@@ -1,7 +1,8 @@
 import { Card, CardBody, CardFooter, CardTitle } from "react-bootstrap"
 import { formatCurrency } from "../utilities/formatCurrency"
 import { Link } from "react-router-dom"
-import type { Item } from "../App" 
+import type { Item } from "../App"
+import { getAssetUrl } from "../utilities/getAssetUrl"
 
 type CardItemProps = Item & {
     onUpdateClick: (item: Item) => void;
@@ -50,7 +51,7 @@ export function CardItem(props: CardItemProps) {
                     className="p-1 text-secondary icon-action-button" 
                     title="Details"
                 >
-                    <img src="/arrow-expand.svg" alt="Details" style={{ width: '20px', height: '20px' }}/>
+                    <img src={getAssetUrl("arrow-expand.svg")} alt="Details" style={{ width: '20px', height: '20px' }}/>
                 </Link>
                 <span 
                     className="p-1 text-secondary icon-action-button" 
@@ -58,7 +59,7 @@ export function CardItem(props: CardItemProps) {
                     onClick={handleUpdate}
                     style={{ cursor: 'pointer' }}
                 >
-                    <img src="/edit-detailed-alt-line.svg" alt="Update" style={{ width: '20px', height: '20px' }}/>
+                    <img src={getAssetUrl("edit-detailed-alt-line.svg")} alt="Update" style={{ width: '20px', height: '20px' }}/>
                 </span>
                 <span 
                     className="p-1 text-secondary icon-action-button" 
@@ -66,7 +67,7 @@ export function CardItem(props: CardItemProps) {
                     onClick={handleRemove}
                     style={{ cursor: 'pointer' }}
                 >
-                    <img src="/delete-02.svg" alt="Delete" style={{ width: '20px', height: '20px' }}/>
+                    <img src={getAssetUrl("delete-02.svg")} alt="Delete" style={{ width: '20px', height: '20px' }}/>
                 </span>
             </CardFooter>
         </Card>
