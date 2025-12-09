@@ -1,0 +1,7 @@
+[
+    { "id": 1, "title": "Lego", "price": 14399, "imgUrl": "https://www.lego.com/cdn/cs/set/assets/blt82d92430ff7c600c/10341_boxprod_v39.jpg?format=webply&fit=bounds&quality=60&width=1200&height=1200&dpr=2", "addTime": "2025-12-05T10:00:00Z", "description": "You’re never too old for LEGO."},
+    { "id": 2, "title": "A Song of Ice and Fire", "price": 5900, "imgUrl": "https://static.yakaboo.ua/media/catalog/product/_/-/_-1_14_227.jpg", "addTime": "2025-11-20T15:30:00Z", "description": "As a fan of the series and a total bookworm, I really need to read this 5-book set by George Martin."},
+    { "id": 3, "title": "Hiking equipment", "price": 0, "imgUrl": "https://www.freshoffthegrid.com/wp-content/uploads/Backpacking-Gear.jpg", "addTime": "2025-12-08T09:00:00Z", "description": "I love hiking, but I don’t have the necessary gear yet. It’s hard to estimate the cost."},
+    { "id": 4, "title": "Cheeseburger", "price": 400, "imgUrl": "https://blog-content.omahasteaks.com/wp-content/uploads/2023/02/blogwp_gouda-cheeseburger-scaled.jpg", "addTime": "2025-10-01T12:00:00Z", "description": "What a beauty it is. It’s a permanent item on my wishlist. I could eat burgers nonstop."},
+    { "id": 5, "title": "PlayStation 5", "price": 19000, "imgUrl": "https://files.foxtrot.com.ua/PhotoNew/img_0_752_238_0_1_QDWc6G.webp", "addTime": "2025-12-01T18:00:00Z", "description": "Just to chill with a good game."}
+]
